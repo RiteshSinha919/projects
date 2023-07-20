@@ -1,0 +1,91 @@
+
+.main-container{
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 30px;
+    width: 400px;
+    height: 500px;
+
+}
+
+.sub-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+.login-container{
+
+    display: flex;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+}
+
+#logo {
+
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+#email, #password{
+    margin-bottom: 25px;
+    padding: 13px 20px;
+    border: 1px solid #cfd8dc;
+    font-family: inherit;
+    color: #546e7a;
+    border-radius: 3px;
+    outline: none;
+}
+
+#email:hover, #password:hover{
+    outline: 2px solid rgba(224, 132, 27, 0.395);
+    border: 1px solid  black;
+}
+
+#login-btn{
+    padding: 13px 20px;
+    cursor: pointer;
+    color: #ffffff;
+    background: linear-gradient(215deg, #546e7a, #37474f);
+    border-radius: 3px;
+    border: none; 
+    
+}
+
+#login-btn:hover {
+    background: linear-gradient(45deg, rgba(84, 110, 122,0.9), rgba(55, 71, 79,0.9));
+}
+
+
+#forget-btn, #register-btn {
+    color: #546e7a;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0;
+    cursor: pointer;
+    background:none;
+    border: none;
+}
+
+.register-container{
+    margin-top: 25px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@keyframes hoverAnimation {
+    0% {
+      background-color: linear-gradient(215deg, #546e7a, #37474f);
+    }
+    100% {
+      background-color: linear-gradient(150deg, rgba(84, 110, 122,0.9), rgba(55, 71, 79,0.9));
+    }
+  }
